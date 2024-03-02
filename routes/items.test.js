@@ -4,7 +4,7 @@ const request = require("supertest");
 // app imports
 const app = require("../app");
 
-let items = require("../fakeDb")
+let items = require("../fakeDB")
 
 let item = { name: "silly", price:200 }
 

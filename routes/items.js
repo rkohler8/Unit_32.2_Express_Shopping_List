@@ -1,6 +1,6 @@
 const Item = require('../item')
 const express = require('express');
-const router = express.Router();
+const router = new express.Router();
 
 
 // GET /items - this should render a list of shopping items.
